@@ -1,0 +1,24 @@
+MSPDebug version 0.20 - debugging tool for MSP430 MCUs
+Copyright (C) 2009-2012 Daniel Beer <dlbeer@gmail.com>
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+MSP430_Initialize: COM34
+Firmware version is 30301004
+MSP430_VCC: 3000 mV
+MSP430_OpenDevice
+MSP430_GetFoundDevice
+Device: MSP430F5529 (id = 0x0030)
+8 breakpoints available
+MSP430_EEM_Init
+Chip ID data: 55 29 18
+Erasing...
+Programming...
+Writing 4096 bytes at 4400...
+Writing 4096 bytes at 5400...
+Writing 2269 bytes at 6400...
+Writing   52 bytes at 6cde...
+Writing   46 bytes at ffd2...
+Done, 10559 bytes total
+MSP430_Run
+MSP430_Close
