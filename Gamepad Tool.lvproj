@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -37,6 +37,7 @@
 		</Item>
 		<Item Name="Gamepad Tool.vi" Type="VI" URL="../Gamepad Tool.vi"/>
 		<Item Name="Gamepad Tool.ini" Type="Document" URL="../Gamepad Tool.ini"/>
+		<Item Name="Gamepad Tool for FRC_1.0.0_manifest.html" Type="Document" URL="../Gamepad Tool for FRC_1.0.0_manifest.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -119,7 +120,7 @@
 				<Property Name="Destination[7].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Resource/ti.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EDDC2772-E61B-4FF9-917A-C8294599543F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D61A3115-4073-47F1-8E42-5A30332D0D74}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Gamepad Tool.vi</Property>
@@ -144,6 +145,11 @@
 				<Property Name="Source[16].type" Type="Str">Container</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Tools/mspdebug/COMLIST.dll</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Tools/mspdebug/mspdebug-code-166a99f2ab5868e10c031cb6dca440bcd2585f06 (1).zip</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Gamepad Tool for FRC_1.0.0_manifest.html</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
@@ -173,7 +179,7 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tools/mspdebug/MSP430.dll</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Tools/mspdebug/mspdebug.exe</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">20</Property>
 				<Property Name="TgtF_companyName" Type="Str">Texas Instruments, Inc</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Gamepad Tool for FRC</Property>
 				<Property Name="TgtF_internalName" Type="Str">Gamepad Tool for FRC</Property>
