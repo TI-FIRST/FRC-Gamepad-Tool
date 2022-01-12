@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -73,6 +73,7 @@
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -82,6 +83,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{2D5136EE-D512-485E-BE55-424D3758F3D3}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Gamepad Tool.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{297328AF-0698-415C-BE9B-6798D5116B1B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Gamepad Tool for FRC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
